@@ -1,5 +1,6 @@
 {
   "name": "@goodenough/parallax",
+  "publishConfig": "public",
   "version": "1.0.0",
   "description": "",
   "type": "module",
