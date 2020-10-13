@@ -2,6 +2,22 @@
 
 //ax
 
+# INSTALL
+
+client-side:
+
+```js
+import Parallax from 'https://unpkg.com/@abernier/parallax@1.0.0'
+```
+
+or via a bundler:
+
+```js
+import Parallax from '@abernier/parallax'
+```
+
+NB: you must yarn/npm install it before
+
 # Usage
 
 see: `index.html`
