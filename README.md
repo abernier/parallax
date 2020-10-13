@@ -1,3 +1,5 @@
+[![NPM version](https://img.shields.io/npm/v/@abernier/parallax.svg?style=flat)](https://www.npmjs.com/package/@abernier/parallax)
+
 //ax
 
 # Usage
@@ -5,7 +7,7 @@
 see: `index.html`
 
 ```html
-<section style="display:flex; height:200vh;">
+<section>
   <div data-parallax-dy="0">A</div>
   <div data-parallax-dy=".1">A</div>
   <div data-parallax-dy=".2">B</div>
@@ -20,7 +22,7 @@ see: `index.html`
 </section>
 
 <script type="module">
-import Parallax from './index.js'
+import Parallax from 'https://unpkg.com/@abernier/parallax@1.0.0'
 
 new Parallax(document.querySelector('section'))
 </script>
