@@ -105,9 +105,9 @@ Parallax.prototype.draw = function (percent = this.percent()) {
 
 // http://stackoverflow.com/questions/5661671/detecting-transform-translate3d-support#answer-12621264
 function has3d() {
-  var el = document.createElement('p')
-  var has3d
-  var transforms = {
+  const el = document.createElement('p')
+  let has3d
+  const transforms = {
     'webkitTransform':'-webkit-transform',
     'OTransform':'-o-transform',
     'msTransform':'-ms-transform',
@@ -118,7 +118,7 @@ function has3d() {
   // Add it to the body to get the computed style.
   document.body.insertBefore(el, null)
   
-  for (var t in transforms) {
+  for (let t in transforms) {
     if (el.style[t] !== undefined) {
       el.style[t] = "translate3d(1px,1px,1px)"
       has3d = window.getComputedStyle(el).getPropertyValue(transforms[t])
