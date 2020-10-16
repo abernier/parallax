@@ -2,12 +2,14 @@
 
 //ax
 
+DEMO: https://bl.ocks.org/abernier/raw/a67f6f78721b152c004c759ebb4387c4/
+
 # INSTALL
 
 client-side:
 
 ```js
-import Parallax from 'https://unpkg.com/@abernier/parallax@1.0.0'
+import Parallax from 'https://unpkg.com/@abernier/parallax@1.0.2'
 ```
 
 or via a bundler:
@@ -25,20 +27,20 @@ see: `index.html`
 ```html
 <section>
   <div data-parallax-dy="0">A</div>
-  <div data-parallax-dy=".1">A</div>
-  <div data-parallax-dy=".2">B</div>
-  <div data-parallax-dy=".3">C</div>
-  <div data-parallax-dy=".4">D</div>
-  <div data-parallax-dy=".5">E</div>
-  <div data-parallax-dy=".6">F</div>
-  <div data-parallax-dy=".7">G</div>
-  <div data-parallax-dy=".8">H</div>
-  <div data-parallax-dy=".9">I</div>
-  <div data-parallax-dy>J</div>
+  <div data-parallax-dy=".1">B</div>
+  <div data-parallax-dy=".2">C</div>
+  <div data-parallax-dy=".3">D</div>
+  <div data-parallax-dy=".4">E</div>
+  <div data-parallax-dy=".5">F</div>
+  <div data-parallax-dy=".6">G</div>
+  <div data-parallax-dy=".7">H</div>
+  <div data-parallax-dy=".8">I</div>
+  <div data-parallax-dy=".9">J</div>
+  <div data-parallax-dy>K</div>
 </section>
 
 <script type="module">
-import Parallax from 'https://unpkg.com/@abernier/parallax@1.0.0'
+import Parallax from 'https://unpkg.com/@abernier/parallax@latest'
 
 new Parallax(document.querySelector('section'))
 </script>
