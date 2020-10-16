@@ -87,7 +87,7 @@ Parallax.prototype.draw = function (percent = this.percent()) {
     this.items.forEach(el  => {
       
       const dy = +(el.dataset.parallaxDy || this.amplitude)
-      console.log('dy=', dy)
+      //console.log('dy=', dy)
       
       const ty = 100*(2*(percent - .5) * dy)
       
